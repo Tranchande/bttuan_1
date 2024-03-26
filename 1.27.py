@@ -1,0 +1,8 @@
+a = int(input("nhap a: "))
+b = int(input("nhap b: "))
+c = int(input("nhap c: "))
+print(max(a,b,c))
+print(min(a,b,c))
+sapxep = sorted([a,b,c])
+sapxep_1 = ",".join(map(str,sapxep))
+print(sapxep_1)
